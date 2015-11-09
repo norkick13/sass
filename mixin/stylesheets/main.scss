@@ -1,0 +1,21 @@
+@mixin white($opacity,$color){
+	background-color: $color;
+	opacity: $opacity;
+	
+}
+@mixin font($size, $family){
+	font-family: $family;
+	font-size: $size;
+
+}
+
+body{
+	margin:0;a
+	padding: 0;
+	@include white(.5, green)
+	@include font(10, times)
+}	 
+ nav{
+ 	display: block;
+ 	@include font(15, monospace)
+ 	 }

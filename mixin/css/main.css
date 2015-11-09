@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  opacity: 0.5;
+  font-family: times;
+  font-size: 20; }
+
+nav {
+  display: block;
+  font-family: monospace;
+  font-size: 15; }
+
+/*# sourceMappingURL=main.css.map */
